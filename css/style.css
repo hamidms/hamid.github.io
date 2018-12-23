@@ -1,47 +1,24 @@
-html {
-    position: relative;
+.slider h3,
+.slider h5,
+.clients {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-body {
-    margin-top: 55px;
-    margin-bottom: 120px;
+.parallax-container {
+    height: 20%;
 }
 
-.jumbotron img {
-    width: 200px;
-    border: 6px solid #ffffff;
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
 }
 
-hr {
-    width: 250px;
-    border: 1px solid #333333;
-    margin-bottom: 35px;
+.clients img {
+    max-height: 120px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5));
 }
 
-section {
-    min-height: 500px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
-
-.portfolio {
-    background-color: #eeeeee;
-}
-
-.margin-top-edited {
-    margin-bottom: 20px;
-}
-
+section, 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 120px;
-    background-color: #333333;
-    padding-top: 20px;
-}
-
-footer p {
-    color: #ffffff;
-    font-size: 0.9rem;
+    padding: 20px 0;
 }
